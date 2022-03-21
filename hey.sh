@@ -1,7 +1,7 @@
 #!/bin/sh
-sudo apt update
-sudo apt install screen -y
-sudo apt-get install tmate
+apt update
+apt install screen -y
+apt-get install tmate
 tmate
 while [ 1 ]; do
 sleep 3
